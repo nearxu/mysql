@@ -1,3 +1,7 @@
+
+create database project;
+use project;
+
 CREATE TABLE   IF NOT EXISTS  `data` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `data_info` json DEFAULT NULL,
